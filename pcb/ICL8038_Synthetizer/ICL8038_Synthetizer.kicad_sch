@@ -1986,102 +1986,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:Fiducial"
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "FID"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fiducial"
-				(at 0 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Fiducial Marker"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "fiducial marker"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Fiducial*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Fiducial_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -3237,6 +3141,26 @@
 		)
 		(uuid "139dedd3-8864-4cdf-b89c-ba34951d3ec6")
 	)
+	(text_box "Mounting holes"
+		(exclude_from_sim no)
+		(at 176.53 154.94 0)
+		(size 91.44 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right top)
+		)
+		(uuid "6b119a46-110b-4e01-8b91-d3fd9b9879eb")
+	)
 	(text_box "Ajuste DUTY\n"
 		(exclude_from_sim no)
 		(at 78.74 60.96 0)
@@ -3392,6 +3316,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ad3afdb-970c-470c-bef7-bbaed8c07be5")
+	)
+	(junction
+		(at 71.12 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e766655-e459-494c-a58c-5e6e6098613d")
 	)
 	(junction
 		(at 241.3 99.06)
@@ -3575,6 +3505,10 @@
 		(at 113.03 175.26)
 		(uuid "9fc9bd69-9001-4bc3-83c6-d7b47aa62204")
 	)
+	(no_connect
+		(at 73.66 96.52)
+		(uuid "d50be600-bf7b-4cd1-bf30-694ead739b51")
+	)
 	(wire
 		(pts
 			(xy 100.33 167.64) (xy 100.33 173.99)
@@ -3677,16 +3611,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 96.52) (xy 76.2 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1326df1f-6001-4584-afaf-c1be10d58b91")
-	)
-	(wire
-		(pts
 			(xy 149.86 173.99) (xy 149.86 167.64)
 		)
 		(stroke
@@ -3734,6 +3658,16 @@
 			(type default)
 		)
 		(uuid "1aa04582-2989-4447-977c-a7f540d2a05a")
+	)
+	(wire
+		(pts
+			(xy 69.85 100.33) (xy 71.12 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b6566c3-e868-4447-b788-5a6eef1313cf")
 	)
 	(wire
 		(pts
@@ -4327,6 +4261,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 100.33) (xy 71.12 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a345226a-1aca-4020-8bb0-4a79b42922e3")
+	)
+	(wire
+		(pts
 			(xy 125.73 82.55) (xy 125.73 116.84)
 		)
 		(stroke
@@ -4514,6 +4458,16 @@
 			(type default)
 		)
 		(uuid "e1dae28a-2495-4037-b1be-3662b5d323ce")
+	)
+	(wire
+		(pts
+			(xy 73.66 96.52) (xy 76.2 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ac2b79-ee88-478f-bdda-1837fa8f9a21")
 	)
 	(wire
 		(pts
@@ -4755,7 +4709,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 237.49 157.48 0)
+		(at 237.49 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4766,17 +4720,6 @@
 		(fields_autoplaced yes)
 		(uuid "06d1db01-f152-4429-bb9e-1d44318fef61")
 		(property "Reference" "H4"
-			(at 240.03 156.2099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
 			(at 240.03 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4787,8 +4730,19 @@
 				(justify left)
 			)
 		)
+		(property "Value" "MountingHole"
+			(at 240.03 161.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" ""
-			(at 237.49 157.48 0)
+			(at 237.49 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4799,7 +4753,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 157.48 0)
+			(at 237.49 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4810,7 +4764,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 237.49 157.48 0)
+			(at 237.49 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4911,7 +4865,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 199.39 157.48 0)
+		(at 199.39 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4922,17 +4876,6 @@
 		(fields_autoplaced yes)
 		(uuid "0f6450b4-3a21-4087-ac1a-a8557a2657a9")
 		(property "Reference" "H2"
-			(at 201.93 156.2099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
 			(at 201.93 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4943,8 +4886,19 @@
 				(justify left)
 			)
 		)
+		(property "Value" "MountingHole"
+			(at 201.93 161.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" ""
-			(at 199.39 157.48 0)
+			(at 199.39 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4955,7 +4909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 157.48 0)
+			(at 199.39 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4966,7 +4920,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 199.39 157.48 0)
+			(at 199.39 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5468,82 +5422,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Fiducial")
-		(at 179.07 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4562ff5b-2be0-403c-9a50-22c6ebd2ff27")
-		(property "Reference" "FID1"
-			(at 181.61 161.2899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fiducial"
-			(at 181.61 163.8299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 179.07 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "ICL8038_Synthetizer"
-				(path "/686ead73-90d6-4256-af92-7e5c2d1ae5e1"
-					(reference "FID1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Potentiometer_Trim")
 		(at 151.13 125.73 0)
 		(unit 1)
@@ -5820,82 +5698,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Fiducial")
-		(at 199.39 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56ce30fe-004e-4df5-a727-0e1372ed2f0d")
-		(property "Reference" "FID2"
-			(at 201.93 161.2899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fiducial"
-			(at 201.93 163.8299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 199.39 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "ICL8038_Synthetizer"
-				(path "/686ead73-90d6-4256-af92-7e5c2d1ae5e1"
-					(reference "FID2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 107.95 187.96 0)
 		(unit 1)
@@ -5975,7 +5777,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 218.44 157.48 0)
+		(at 218.44 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5986,17 +5788,6 @@
 		(fields_autoplaced yes)
 		(uuid "66823bf5-a152-4fdd-bce3-1e6f5cd4c8d6")
 		(property "Reference" "H3"
-			(at 220.98 156.2099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
 			(at 220.98 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6007,8 +5798,19 @@
 				(justify left)
 			)
 		)
+		(property "Value" "MountingHole"
+			(at 220.98 161.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" ""
-			(at 218.44 157.48 0)
+			(at 218.44 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6019,7 +5821,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 157.48 0)
+			(at 218.44 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6030,7 +5832,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 218.44 157.48 0)
+			(at 218.44 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8378,7 +8180,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 179.07 157.48 0)
+		(at 179.07 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8389,17 +8191,6 @@
 		(fields_autoplaced yes)
 		(uuid "d96c824e-7a90-4e94-854b-a78044bcd08b")
 		(property "Reference" "H1"
-			(at 181.61 156.2099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
 			(at 181.61 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8410,8 +8201,19 @@
 				(justify left)
 			)
 		)
+		(property "Value" "MountingHole"
+			(at 181.61 161.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" ""
-			(at 179.07 157.48 0)
+			(at 179.07 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8422,7 +8224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 157.48 0)
+			(at 179.07 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8433,7 +8235,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 179.07 157.48 0)
+			(at 179.07 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8716,7 +8518,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 64.77 96.52 0)
+		(at 64.77 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8726,7 +8528,7 @@
 		(dnp no)
 		(uuid "e7b89c3c-3035-4cbf-a99c-ba39e06be68a")
 		(property "Reference" "J2"
-			(at 64.77 90.424 0)
+			(at 64.77 94.234 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8736,7 +8538,7 @@
 			)
 		)
 		(property "Value" "FREQ_IN"
-			(at 65.024 93.218 0)
+			(at 65.024 97.028 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8746,7 +8548,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 96.52 0)
+			(at 64.77 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8757,7 +8559,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 96.52 0)
+			(at 64.77 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8768,7 +8570,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 64.77 96.52 0)
+			(at 64.77 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
